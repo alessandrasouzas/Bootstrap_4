@@ -32,7 +32,7 @@
     <main>
 
       <section id="carrousel">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-ride="carousel" data-interval="3000">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -135,7 +135,7 @@
         contato: email@frutafruto.com.br</a></p>
     </footer>
 
-    <!-- modal -->
+    <!-- modal - contato-->
 
     <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -147,7 +147,17 @@
             </button>
           </header>
           <article class="modal-body">
-           
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="informe seu nome">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="informe seu e-mail">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="deixe sua mensagem" rows="3"></textarea>
+              </div>
+            </form>
           </article>
           <footer class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
