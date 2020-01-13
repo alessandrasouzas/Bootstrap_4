@@ -14,5 +14,11 @@
 }
 
 .botao-cor-especial {
-    background-color: darkred;    
+    background-color: darkred;  
+    color: white;  
+    border: none;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
 }
