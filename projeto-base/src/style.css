@@ -2,23 +2,32 @@
     object-fit: cover; 
     object-position: 0 80%;
     height: 400px;
-  }
-  
+}  
 
-.fonte-titulo{
+.fonte-titulo {
     font-family: 'Pacifico', cursive;
 }
 
-.texto-cor-especial{
+.texto-cor-especial {
     color: darkred;
 }
 
-.botao-cor-especial {
+.btn-cor-especial {
     background-color: darkred;  
-    color: white;  
+    color: white;      
     border: none;
 }
 
 .borda-cor-especial {
     border-color: darkred;
+}
+
+.card-largura {
+    width: 18rem;
+}
+
+.card-imagem-posicao {
+    height:200px;
+    object-fit:cover;
+    object-position: 0 60%;
 }
