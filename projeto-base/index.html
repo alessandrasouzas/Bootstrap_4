@@ -23,7 +23,7 @@
             <li><a class="nav-item nav-link active" href="#">início<span class="sr-only">(Página atual)</span></a></li>
             <li><a class="nav-item nav-link" href="#">receitas</a></li>
             <li><a class="nav-item nav-link" href="#">quem somos</a></li>
-            <li><a class="nav-item nav-link" href="#">contato</a></li>
+            <li><a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#modal-contato">contato</a></li>
           </ul>
         </div>
       </nav>
@@ -130,10 +130,32 @@
 
     </main>
 
-    <footer>
-      <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+    <footer id="footer" class="bg-secondary py-3 mx-auto">
+      <p class="text-center m-0"><a href="#" class="text-light text-decoration-none">
+        contato: email@frutafruto.com.br</a></p>
     </footer>
 
+    <!-- modal -->
+
+    <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <dialog class="modal-content">
+          <header class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </header>
+          <article class="modal-body">
+           
+          </article>
+          <footer class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-cor-especial">Enviar</button>
+          </footer>
+        </dialog>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
